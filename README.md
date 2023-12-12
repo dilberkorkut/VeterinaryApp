@@ -5,7 +5,7 @@ randevular ve aşılar gibiveterinerlikle ilgili temel kayıtları yönetmek iç
 bir REST API projesidir.
 Bu uygulama veteriner calisani tarafindan kullanilacaktir.
 
-![UML DIAGRAM](src/imagesTblUml/uml-diagram-vetApp.png)
+![UML DIAGRAM](src/images/uml-diagram-vetApp.png)
 
 ## Teknolojiler
 
@@ -95,6 +95,6 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 
 Her endpoint'in detayları için ilgili controller sınıflarını inceleyebilirsiniz.
 
-![Tablolar](src/imagesTblUml/tbls-all.png)
+![Tablolar](src/images/tbls-all.png)
 
 
