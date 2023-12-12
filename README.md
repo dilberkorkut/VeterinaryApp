@@ -49,7 +49,7 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 
 | Endpoint                                     | HTTP Metodu | Açıklama                                                                |
 |----------------------------------------------|:------------|-------------------------------------------------------------------------|
-| *vaccines**                                  |             |                                                                         |
+| **vaccines**                                 |             |                                                                         |
 | `/api/v1/vaccines/{id}`                      | GET         | Belirtilen ID'ye sahip asiyi getir                                      |
 | `/api/v1/vaccines/{id}`                      | PUT         | Belirtilen ID'ye sahip asiyi guncelle                                   |
 | `/api/v1/vaccines/{id}`                      | DELETE      | Belirtilen ID'ye sahip asiyi sil                                        |
@@ -73,7 +73,7 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 | `/api/v1/customers`                          | POST        | Hayvan sahibi ekle                                                      |
 | `/api/v1/customers/byName`                   | GET         | Isme gore hayvan sahipleri                                              |
 |                                              |             |                                                                         |
-| available_dates**                            |             |                                                                         |
+| **available_dates**                          |             |                                                                         |
 | `/api/v1/available_dates/{id}`               | GET         | Belirtilen ID'ye sahip musait gunu getir                                |
 | `/api/v1/available_dates/{id}`               | PUT         | Belirtilen ID'ye sahip musait gunu guncelle                             |
 | `/api/v1/available_dates/{id}`               | DELETE      | Belirtilen ID'ye sahip musait gunu sil                                  |
