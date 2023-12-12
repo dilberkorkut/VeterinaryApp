@@ -49,7 +49,7 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 
 | Endpoint                                     | HTTP Metodu | Açıklama                                                                |
 |----------------------------------------------|:------------|-------------------------------------------------------------------------|
-| **VACCINES**                                 |             |                                                                         |
+| *vaccines**                                  |             |                                                                         |
 | `/api/v1/vaccines/{id}`                      | GET         | Belirtilen ID'ye sahip asiyi getir                                      |
 | `/api/v1/vaccines/{id}`                      | PUT         | Belirtilen ID'ye sahip asiyi guncelle                                   |
 | `/api/v1/vaccines/{id}`                      | DELETE      | Belirtilen ID'ye sahip asiyi sil                                        |
@@ -58,14 +58,14 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 | `/api/v1/vaccines/finishDate`                | GET         | Girilen tarih araligina gore asi kayitlari                              |
 | `/api/v1/vaccines/findByAnimalId/{animalId}` | GET         | Belirli bir hayvana ait tüm aşı kayıtları                               |
 |                                              |             |                                                                         |
-| **DOCTORS**                                  |             |                                                                         |
+| **doctors**                                  |             |                                                                         |
 | `/api/v1/doctors/{id}`                       | GET         | Belirtilen ID'ye sahip doktoru getir                                    |
 | `/api/v1/doctors/{id}`                       | PUT         | Belirtilen ID'ye sahip doktoru guncelle                                 |
 | `/api/v1/doctors/{id}`                       | DELETE      | Belirtilen ID'ye sahip doktoru sil                                      |
 | `/api/v1/doctors`                            | GET         | Tum doktorlari getir                                                    |
 | `/api/v1/doctors`                            | POST        | Doktor ekle                                                             |
 |                                              |             |                                                                         |
-| **CUSTOMERS**                                |             |                                                                         |
+| **customers**                                |             |                                                                         |
 | `/api/v1/customers/{id}`                     | GET         | Belirtilen ID'ye sahip hayvan sahibini getir                            |
 | `/api/v1/customers/{id}`                     | PUT         | Belirtilen ID'ye sahip hayvan sahibini guncelle                         |
 | `/api/v1/customers/{id}`                     | DELETE      | Belirtilen ID'ye sahip hayvan sahibini sil                              |
@@ -73,14 +73,14 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 | `/api/v1/customers`                          | POST        | Hayvan sahibi ekle                                                      |
 | `/api/v1/customers/byName`                   | GET         | Isme gore hayvan sahipleri                                              |
 |                                              |             |                                                                         |
-| **AVAILABLE DATES**                          |             |                                                                         |
+| available_dates**                            |             |                                                                         |
 | `/api/v1/available_dates/{id}`               | GET         | Belirtilen ID'ye sahip musait gunu getir                                |
 | `/api/v1/available_dates/{id}`               | PUT         | Belirtilen ID'ye sahip musait gunu guncelle                             |
 | `/api/v1/available_dates/{id}`               | DELETE      | Belirtilen ID'ye sahip musait gunu sil                                  |
 | `/api/v1/available_dates`                    | GET         | Tum musait gunleri getir                                                |
 | `/api/v1/available_dates`                    | POST        | Musait gun ekle                                                         |
 |                                              |             |                                                                         |
-| **APPOINTMENTS**                             |             |                                                                         |
+| **appointments**                             |             |                                                                         |
 | `/api/v1/appointments/{id}`                  | GET         | Belirtilen ID'ye sahip randevuyu getir                                  |
 | `/api/v1/appointments/{id}`                  | PUT         | Belirtilen ID'ye sahip randevuyu guncelle                               |
 | `/api/v1/appointments/{id}`                  | DELETE      | Belirtilen ID'ye sahip randevuyu sil                                    |
@@ -89,7 +89,7 @@ Aşağıda, API'nin sunduğu temel endpoint'lerin bir listesi bulunmaktadır:
 | `/api/v1/appointments/doctorId`              | GET         | Kullanıcı tarafından girilen tarih aralığına ve doktora göre randevular |
 | `/api/v1/appointments/animalId`              | GET         | Kullanıcı tarafından girilen tarih aralığına ve hayvana göre randevular |
 |                                              |             |                                                                         |
-| **ANIMALS**                                  |             |                                                                         |
+| **animals**                                  |             |                                                                         |
 | `/api/v1/animals/{id}`                       | GET         | Belirtilen ID'ye sahip hayvani getir                                    |
 | `/api/v1/animals/{id}`                       | PUT         | Belirtilen ID'ye sahip hayvani guncelle                                 |
 | `/api/v1/animals/{id}`                       | DELETE      | Belirtilen ID'ye sahip hayvani sil                                      |
